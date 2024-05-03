@@ -1,4 +1,4 @@
-# This runs the compiler using the -Wall flag, which displays all warnings.
+# This runs the compiler with the -Wall flag, which displays all warnings.
 
 guess: main.c
 	gcc main.c -Wall -o guess
