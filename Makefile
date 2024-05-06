@@ -1,8 +1,11 @@
-# This runs the compiler with the -Wall flag, which displays all warnings.
+CC=gcc
+CFLAGS=-Wall
 
-guess: main.c
-	gcc main.c -Wall -o guess
+guess: main.o
+	$(CC) $(CFLAGS) main.c -o guess
 
+main.o: main.c
+	$(CC) $(CFLAGS) -c main.c
 
 clean:
 	rm -f guess *.o
