@@ -16,4 +16,4 @@ Your goal is to type an integer number into the terminal and guess a number rand
 
 The program will say if your guess is high or low.
 
-When the number is guessed, you will be conngratulated and the program will end.
+When the number is guessed, you will be congratulated and the program will end.
